@@ -1,7 +1,7 @@
 # CheckBalance
 Check Balance
-A method to which one -dimensional array and number n (may be positive or negative) are submitted
- to the input, while the method must shift all the elements of the array to the n positions.
- Elements are shifted cyclically. To complicate the task, it is impossible to use auxiliary arrays.
- Examples: [1, 2, 3] at n = 1 (per one to the right) -> [3, 1, 2]; [3, 5, 6, 1]
- with n = -2 (on two to the left) -> [6, 1, 3, 5]. At which n in which direction the shift can be chosen yourself.
+Write a method into which the one -dimensional integer array is not empty,
+the method should return True if the massif has a place in which the sum of the left and right part of the array is equal.
+** Examples:
+CheckBalance ([2, 2, 2, 1, 2, 2, 2, ||| 10, 1]) → True, i.e. 2 + 2 + 2 + 1 + 2 + 2 = 10 + 1
+CheckBalance ([1, 1, 1, ||| 2, 1]) → True, i.e. 1 + 1 + 1 = 2 + 1
